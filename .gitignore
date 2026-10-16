@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Django
+*.sqlite3
+db.sqlite3
+
+# Docker
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Devpost Learn — personal learning context (keep out of commits by default)
+devpost/learner-profile.md
